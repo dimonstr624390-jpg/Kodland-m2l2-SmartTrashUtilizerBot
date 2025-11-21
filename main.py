@@ -1,7 +1,7 @@
 import telebot
 from logic import sortprob
 
-bot = telebot.TeleBot('8489617318:AAEBJuPjFoUOiScu0odoG9bIQzGOJ3A9FUA')
+bot = telebot.TeleBot('YOURTOKENGOESHERE')
 
 @bot.message_handler(commands=['start', 'ok'])
 def send_welcome(message):
